@@ -11,7 +11,7 @@ return [
      *  This class is responsible enabling, disabling, blocking and unblocking.
      *  To override the default functionality extend the below class and provide its name here.
      */
-    "manager-repository" => 'Neelkanth\Laravel\Surveillance\Implementations\SurveillanceManagerRepository',
+    "manager-repository" => 'App\Repositories\SurveillanceManagerRepository',
 
     /*
      *  This class is responsible for logging the surveillance enabled requests

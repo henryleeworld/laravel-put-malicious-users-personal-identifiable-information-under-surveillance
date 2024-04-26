@@ -1,4 +1,4 @@
-# Laravel 8 將可識別個人身份的資訊進行監視
+# Laravel 10 將可識別個人身份的資訊進行監視
 
 引入 neelkanthk 的 laravel-surveillance 套件來擴增對惡意用戶、IP 地址和匿名瀏覽器指紋進行監視，寫入監視日誌並判斷使用者是否允許訪問應用程式。
 
@@ -53,11 +53,11 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Lxhg1rp.png)
+![](https://i.imgur.com/AqVa6UH.png)
 > 對特定 IP 地址開啟監視
 
-![](https://i.imgur.com/FhjoxH5.png)
+![](https://i.imgur.com/PJrRvly.png)
 > 紀錄監視的條件
 
-![](https://i.imgur.com/aXloiC0.png)
+![](https://i.imgur.com/c16vTRb.png)
 > 紀錄監視特定 IP 地址的所有訪問
