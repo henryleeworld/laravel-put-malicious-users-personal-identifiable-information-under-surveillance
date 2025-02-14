@@ -14,7 +14,7 @@ class CreateSurveillanceManagersTable extends Migration
     public function up()
     {
         Schema::create('surveillance_managers', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string("type");
             $table->string("value");
             $table->unsignedTinyInteger("surveillance_enabled")->nullable();

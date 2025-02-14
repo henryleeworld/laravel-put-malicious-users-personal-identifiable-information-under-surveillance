@@ -14,9 +14,9 @@ class CreateSurveillanceLogsTable extends Migration
     public function up()
     {
         Schema::create('surveillance_logs', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string("fingerprint")->nullable();
-            $table->string("userid")->nullable();
+            $table->foreignId("userid")->nullable();
             $table->string("ip")->nullable();
             $table->text("url")->nullable();
             $table->text("user_agent")->nullable();

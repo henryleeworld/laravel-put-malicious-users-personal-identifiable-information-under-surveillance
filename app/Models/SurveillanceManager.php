@@ -18,15 +18,19 @@ class SurveillanceManager extends Model
         'access_unblocked_at'
     ];
 
+
     /**
-     * The attributes that should be cast.
+     * Get the attributes that should be cast.
      *
-     * @var array<string, string>
+     * @return array<string, string>
      */
-    protected $casts = [
-        'surveillance_enabled_at' => 'datetime',
-        'surveillance_disabled_at' => 'datetime',
-        'access_blocked_at' => 'datetime',
-        'access_unblocked_at' => 'datetime',
-    ];
+    protected function casts(): array
+    {
+        return [
+            'surveillance_enabled_at' => 'datetime',
+            'surveillance_disabled_at' => 'datetime',
+            'access_blocked_at' => 'datetime',
+            'access_unblocked_at' => 'datetime',
+        ];
+    }
 }
