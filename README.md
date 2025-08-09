@@ -1,4 +1,4 @@
-# Laravel 11 將可識別個人身份的資訊進行監視
+# Laravel 12 將可識別個人身份的資訊進行監視
 
 引入 neelkanthk 的 laravel-surveillance 套件來擴增對惡意用戶、IP 地址和匿名瀏覽器指紋進行監視，寫入監視日誌並判斷使用者是否允許訪問應用程式。
 
@@ -41,11 +41,11 @@ $ php artisan surveillance:unblock {fingerprint 數位指紋／ip IP 地址／us
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/brKU77b.png)
+![](https://i.imgur.com/keFUzl2.png)
 > 對特定 IP 地址開啟監視
 
-![](https://i.imgur.com/W9fqM0D.png)
+![](https://i.imgur.com/AF7Aqnm.png)
 > 紀錄監視的條件
 
-![](https://i.imgur.com/u0vCyH3.png)
+![](https://i.imgur.com/R4dcUAn.png)
 > 紀錄監視特定 IP 地址的所有訪問
